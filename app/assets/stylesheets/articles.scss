@@ -1,3 +1,24 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+header {
+  display: flex;
+  position: relative;
+  background: blue;
+  font-size: 40px;
+  color: white;
+  font-style: bold;
+  text-align: center;
+  align-items: center;
+  height: 80px;
+}
+
+.separator {
+  height: 25px;
+}
+
+.lado {
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
