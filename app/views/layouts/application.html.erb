@@ -12,11 +12,13 @@
 
   <body>
 
-    <header> <%= link_to "All Articles", articles_path, class: 'btn btn-primary lado' %> <span> This is Articles.new </span> </header>
+    <header> <%= link_to "All Articles", articles_path, class: 'btn btn-primary lado' %> <span> This is Articles.new </span>  </header>
 
     <div class = "separator"></div>
     <div class="container">
       <%= yield %>
     </div>
+
+
   </body>
 </html>
